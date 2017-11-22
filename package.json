@@ -1,29 +1,4 @@
 {
-  "name": "react-routing-mobx-bootstrap-boilerplate",
-  "version": "0.0.1",
-  "description": "Webpack-react-router-mobx-bootstrap-css-modules",
-  "main": "''",
-  "scripts": {
-    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --profile --colors",
-    "dev": "webpack-dev-server --progress --profile --colors --hot"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tranqy/react-routing-mobx-bootstrap-boilerplate"
-  },
-  "keywords": [
-    "React",
-    "Webpack",
-    "Babel",
-    "Starter",
-    "template"
-  ],
-  "author": "Aaron Junod",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tranqy/react-routing-mobx-bootstrap-boilerplate"
-  },
-  "homepage": "https://github.com/tranqy/react-routing-mobx-bootstrap-boilerplate#readme",
   "dependencies": {
     "mobx": "^2.3.5",
     "mobx-react": "^3.5.0",
