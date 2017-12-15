@@ -68,6 +68,8 @@
   },
   "dependencies": {
     "cross-env": "^3.1.0",
+    "material-ui": "^0.20.0",
+    "muicss": "^0.9.33",
     "react": "^15.0.1",
     "react-css-modules": "^3.7.10",
     "react-dom": "^15.0.1",
