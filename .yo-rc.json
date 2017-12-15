@@ -1,0 +1,9 @@
+{
+  "generator-react-webpack": {
+    "appName": "ads-ux-project-2017",
+    "style": "scss",
+    "cssmodules": true,
+    "postcss": false,
+    "generatedWithVersion": 4
+  }
+}

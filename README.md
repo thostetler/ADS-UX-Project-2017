@@ -1,1 +1,0 @@
-#### Simple React-Mobx based project for UX Class Project
