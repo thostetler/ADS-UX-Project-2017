@@ -13,8 +13,8 @@
     "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
     "release:minor": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
     "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
-    "serve:dev": "webpack-dev-server --open --env dev",
-    "serve:dist": "webpack-dev-server --open --env dist -p --progress",
+    "serve:dev": "webpack-dev-server --open --env dev --host 0.0.0.0",
+    "serve:dist": "webpack-dev-server --open --env dist -p --progress --host 0.0.0.0",
     "start": "npm run serve:dev",
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "cross-env NODE_ENV=test karma start --autoWatch=true --singleRun=false --reporters=mocha,coverage"
@@ -68,13 +68,20 @@
   },
   "dependencies": {
     "cross-env": "^3.1.0",
+    "faker": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
     "material-ui": "^0.20.0",
     "muicss": "^0.9.33",
     "react": "^15.0.1",
     "react-css-modules": "^3.7.10",
     "react-dom": "^15.0.1",
+    "react-fontawesome": "^1.6.1",
     "react-hot-loader": "^3.0.0-beta.6",
+    "react-placeholder": "^1.0.10",
     "react-redux": "^5.0.6",
+    "react-select": "^1.1.0",
+    "react-spinkit": "^3.0.0",
     "redux": "^3.7.2",
     "webpack": "^2.1.0-beta.6"
   }
